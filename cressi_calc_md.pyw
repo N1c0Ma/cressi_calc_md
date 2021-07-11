@@ -49,7 +49,7 @@ def calc_md(in_file):
                 output_sol.insert(END, "error")
             md = round((sum(int_d) + sum(rat_d) / 10) / len(depths_ch), 1)  #make sums, divide rational sum / 10, divide through num data-points, round
         if int_d == [] or rat_d == []:
-                output_sol.insert(END, "error")
+            output_sol.insert(END, "error")
         else:
             output_sol.insert(END, md)
         print(int_d)
