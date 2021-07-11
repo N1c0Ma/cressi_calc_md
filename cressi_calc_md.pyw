@@ -6,7 +6,6 @@ Created on Wed Jul  7 21:28:57 2021
 """
 from tkinter import*
 from tkinter import filedialog as fd
-import os
 
 def open_file():
     in_file = fd.askopenfilename(title = "Datei öffnen", filetypes = (("txt files","*.txt"), ("all files","*.*")), multiple = True)
