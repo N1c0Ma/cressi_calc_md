@@ -1,0 +1,5 @@
+TG-Nr.	Datum/Tageszeit	Gasmodell	Tauchzeit[hh:min]	Max.Tiefe [m]	Min.Temp. [°C]	Taucher	Ort	Tauchgebiet	Tauchlehrer	Tauchpartner	Wetter	Wasser [°C]	Luft-Temp.	Sicht	Wind	Strömung 
+12	04/07/2021 15:16	4,9 m	00h04'	21 °C												
+0,000000	20,000000	40,000000	60,000000	80,000000	100,000000	120,000000	140,000000	160,000000	180,000000
+	0,000000	3,900000	2,000000	0,000000	0,000000	0,000000	2,400000	3,700000	4,900000	4,700000
+															
