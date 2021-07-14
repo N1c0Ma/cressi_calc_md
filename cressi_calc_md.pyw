@@ -2,11 +2,10 @@
 """
 Created on Wed Jul  7 21:28:57 2021
 
-@author: nn
+@author: Nicola Matthieu Mann
 """
 from tkinter import*
 from tkinter import filedialog as fd
-import os
 
 def open_file():
     in_file = fd.askopenfilename(title = "Datei öffnen", filetypes = (("txt files","*.txt"), ("all files","*.*")), multiple = True)
@@ -50,9 +49,9 @@ def calc_md(in_file):
                 output_sol.insert(END, "error")
             md = round((sum(int_d) + sum(rat_d) / 10) / len(depths_ch), 1)  #make sums, divide rational sum / 10, divide through num data-points, round
         if int_d == [] or rat_d == []:
-                output_sol.insert(END, "error")
+            output_sol.insert(END, "error")
         else:
-            output_sol.insert(END, md)
+            output_sol.insert(END, str(md) + " m")
         print(int_d)
         print(rat_d)
         print(md)
